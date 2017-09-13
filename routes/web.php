@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('primeraRuta',
- function () {
- return ('Hola A Todos');
+Route::get('/segundaRuta', function () {
+    return view('welcome');
+});
+

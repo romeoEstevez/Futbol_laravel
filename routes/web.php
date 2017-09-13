@@ -16,6 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('/segundaRuta', function () {
-    return view('welcome');
+     return ('Hola A Todos');
 });
 
